@@ -1,0 +1,25 @@
+{
+  "name": "StylingbyValeria",
+  "homepage": "www.stylingbyvaleria.nl",
+  "authors": [
+    "Adriana Matsufuji <adrianabm@gmail.com>"
+  ],
+  "description": "website for styling by valeria",
+  "main": "",
+  "keywords": [
+    "styling"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "angular": "^1.5.8"
+  }
+}
