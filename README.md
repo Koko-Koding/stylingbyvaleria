@@ -11,7 +11,6 @@ assets/styles.css  styling
 assets/main.js     mobile menu, "Lees meer" toggles, copyright year
 assets/images/     photos and icons
 assets/fonts/      Moon Flower (heading font)
-CNAME              custom domain for GitHub Pages
 ```
 
 ## Editing
@@ -34,6 +33,13 @@ python3 -m http.server
 GitHub Pages serves the repository root of the default branch
 (Settings → Pages → *Deploy from a branch* → `main` / `/ (root)`).
 Every push to that branch is live within a minute.
+
+### Custom domain (not active yet)
+
+Until DNS is moved, the site is served at https://koko-koding.github.io/stylingbyvaleria/.
+To switch to the custom domain, set the DNS records below, then add
+`www.stylingbyvaleria.nl` under Settings → Pages → Custom domain
+(this commits a `CNAME` file to the repository).
 
 ### DNS (at the domain registrar)
 
